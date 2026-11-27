@@ -1,0 +1,146 @@
+{
+  "earth": {
+    "name": "Earth",
+    "reference": "NASA Planetary Fact Sheet (Control Baseline)",
+    "physical": {
+      "gravity_ms2": 9.82,
+      "solar_irradiance_wm2": 1361.0,
+      "day_length_hours": 24.0,
+      "surface_pressure_bar": 1.0
+    },
+    "layers": [
+      {
+        "id": 0,
+        "name": "subsurface",
+        "temp_mean_c": 18.0,
+        "temp_diurnal_amp_c": 1.0,
+        "solar_flux_norm": 0.0,
+        "chem_energy_norm": 0.65,
+        "radiation_norm": 0.01,
+        "acidity_norm": 0.02,
+        "pressure_hazard_norm": 0.0,
+        "buoyancy_cost": 0.0
+      },
+      {
+        "id": 1,
+        "name": "surface",
+        "temp_mean_c": 15.0,
+        "temp_diurnal_amp_c": 8.0,
+        "solar_flux_norm": 1.0,
+        "chem_energy_norm": 0.25,
+        "radiation_norm": 0.05,
+        "acidity_norm": 0.0,
+        "pressure_hazard_norm": 0.0,
+        "buoyancy_cost": 0.0
+      },
+      {
+        "id": 2,
+        "name": "airborne",
+        "temp_mean_c": 5.0,
+        "temp_diurnal_amp_c": 6.0,
+        "solar_flux_norm": 1.15,
+        "chem_energy_norm": 0.05,
+        "radiation_norm": 0.12,
+        "acidity_norm": 0.0,
+        "pressure_hazard_norm": 0.0,
+        "buoyancy_cost": 1.4
+      }
+    ]
+  },
+  "mars": {
+    "name": "Mars",
+    "reference": "NASA Planetary Fact Sheet & Curiosity RAD Telemetry",
+    "physical": {
+      "gravity_ms2": 3.73,
+      "solar_irradiance_wm2": 586.2,
+      "day_length_hours": 24.66,
+      "surface_pressure_bar": 0.00636
+    },
+    "layers": [
+      {
+        "id": 0,
+        "name": "subsurface",
+        "temp_mean_c": -20.0,
+        "temp_diurnal_amp_c": 2.0,
+        "solar_flux_norm": 0.0,
+        "chem_energy_norm": 0.75,
+        "radiation_norm": 0.02,
+        "acidity_norm": 0.05,
+        "pressure_hazard_norm": 0.0,
+        "buoyancy_cost": 0.0
+      },
+      {
+        "id": 1,
+        "name": "surface",
+        "temp_mean_c": -65.0,
+        "temp_diurnal_amp_c": 30.0,
+        "solar_flux_norm": 0.43,
+        "chem_energy_norm": 0.15,
+        "radiation_norm": 0.85,
+        "acidity_norm": 0.05,
+        "pressure_hazard_norm": 0.25,
+        "buoyancy_cost": 0.0
+      },
+      {
+        "id": 2,
+        "name": "airborne",
+        "temp_mean_c": -75.0,
+        "temp_diurnal_amp_c": 25.0,
+        "solar_flux_norm": 0.45,
+        "chem_energy_norm": 0.02,
+        "radiation_norm": 0.95,
+        "acidity_norm": 0.0,
+        "pressure_hazard_norm": 0.35,
+        "buoyancy_cost": 6.0
+      }
+    ]
+  },
+  "venus": {
+    "name": "Venus",
+    "reference": "NASA Planetary Fact Sheet & Venus Cloud Deck Astrobiology Models",
+    "physical": {
+      "gravity_ms2": 8.87,
+      "solar_irradiance_wm2": 2601.3,
+      "day_length_hours": 2802.0,
+      "surface_pressure_bar": 92.0
+    },
+    "layers": [
+      {
+        "id": 0,
+        "name": "subsurface",
+        "temp_mean_c": 480.0,
+        "temp_diurnal_amp_c": 0.5,
+        "solar_flux_norm": 0.0,
+        "chem_energy_norm": 0.8,
+        "radiation_norm": 0.0,
+        "acidity_norm": 0.2,
+        "pressure_hazard_norm": 1.0,
+        "buoyancy_cost": 0.0
+      },
+      {
+        "id": 1,
+        "name": "surface",
+        "temp_mean_c": 464.0,
+        "temp_diurnal_amp_c": 2.0,
+        "solar_flux_norm": 0.08,
+        "chem_energy_norm": 0.5,
+        "radiation_norm": 0.01,
+        "acidity_norm": 0.35,
+        "pressure_hazard_norm": 1.0,
+        "buoyancy_cost": 0.0
+      },
+      {
+        "id": 2,
+        "name": "airborne",
+        "temp_mean_c": 25.0,
+        "temp_diurnal_amp_c": 10.0,
+        "solar_flux_norm": 1.4,
+        "chem_energy_norm": 0.45,
+        "radiation_norm": 0.15,
+        "acidity_norm": 0.85,
+        "pressure_hazard_norm": 0.0,
+        "buoyancy_cost": 0.35
+      }
+    ]
+  }
+}
