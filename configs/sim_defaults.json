@@ -10,20 +10,20 @@
     "log_interval": 50
   },
   "energy": {
-    "initial_energy": 50.0,
-    "reproduction_threshold": 100.0,
+    "initial_energy": 80.0,
+    "reproduction_threshold": 120.0,
     "reproduction_cost_ratio": 0.5,
-    "basal_cost": 1.2,
+    "basal_cost": 0.9,
     "dormant_basal_multiplier": 0.1,
-    "max_solar_harvest": 4.5,
-    "max_chem_harvest": 3.2,
+    "max_solar_harvest": 9.0,
+    "max_chem_harvest": 3.4,
     "optimal_temp_c": 20.0,
     "base_temp_band_c": 15.0,
     "max_extra_temp_band_c": 90.0,
     "upkeep_weights": {
-      "rad_shield": 1.5,
-      "acid_resist": 1.5,
-      "thermal_tol": 1.0
+      "rad_shield": 0.8,
+      "acid_resist": 0.8,
+      "thermal_tol": 0.6
     },
     "damage_weights": {
       "radiation": 4.0,

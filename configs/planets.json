@@ -101,7 +101,7 @@
     "physical": {
       "gravity_ms2": 8.87,
       "solar_irradiance_wm2": 2601.3,
-      "day_length_hours": 2802.0,
+      "day_length_hours": 96.0,
       "surface_pressure_bar": 92.0
     },
     "layers": [
